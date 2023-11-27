@@ -16,6 +16,7 @@ func NewExampleStore(db *sql.DB) store.ExampleStore {
 	}
 }
 
+// Real example https://github.com/g0dm0d/blog-api/blob/main/store/postgres/user.go#L26-L34
 func (s *ExampleStore) ExampleFunc(opts store.ExampleFuncOpts) (store.Example, error) {
 	return store.Example{}, nil
 }

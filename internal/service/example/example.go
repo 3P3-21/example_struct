@@ -8,6 +8,8 @@ import (
 	"github.com/3P3-21/curriculum/pkg/errs"
 )
 
+// Real example https://github.com/g0dm0d/uptime/blob/master/internal/service/monitor/get.go
+
 func (s *Service) Example(ctx *req.Ctx) error {
 	data, err := s.exampleStore.ExampleFunc(store.ExampleFuncOpts{
 		ExampleRow: "test",
